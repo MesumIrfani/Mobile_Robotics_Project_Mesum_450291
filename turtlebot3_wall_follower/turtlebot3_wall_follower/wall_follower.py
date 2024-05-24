@@ -18,7 +18,7 @@ class WallFollower(Node):
         self.derivative = 0.0
 
         self.kp = 0.5  # Proportional gain
-        self.ki = 0.0  # Integral gain
+        self.ki = 0.001  # Integral gain
         self.kd = 0.05  # Derivative gain
 
         self.linear_speed = 0.1  # Forward speed
